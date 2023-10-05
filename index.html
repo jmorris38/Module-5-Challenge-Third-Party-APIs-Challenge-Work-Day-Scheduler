@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Work Day Scheduler</title>
+</head>
+<body>
+    <header>
+        <h1>Work Day Scheduler</h1>
+        <p id="currentDay">Current Date and Time</p>
+    </header>
+    <main class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="scheduler-body">
+                <!-- Dynamic rows will be added here -->
+            </tbody>
+        </table>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/dayjs.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
